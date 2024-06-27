@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.all-jobs-sec {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  background-color: black;
+}
+.filter-sec {
+  width: 30%;
+  height: 100vh;
+}
+.jobs-list-cont {
+  width: 70%;
+  padding: 10px;
+}
+.search-bar {
+  width: 80%;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.search-input {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  color: white;
+}
+.search-input:focus{
+    outline: none;
+}
+.search-button {
+  width: 10%;
+  background-color: #272727;
+  border: none;
+
+  cursor: pointer;
+  outline: none;
+}
+.search-icon {
+  color: #f1f5f9;
+  width: 18px;
+  height: 18px;
+}
+.icon-title-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+.jobs-logo {
+  width: 60px;
+}
+.title-rating-cont {
+  margin-left: 10px;
+}
+#rating-icon {
+  color: yellow !important;
+  margin-right: 10px;
+}
+.location-lpa-cont {
+  display: flex;
+  justify-content: space-between;
+}
+.location {
+  margin-right: 20px;
+  margin-left: 5px;
+}
+h4,
+span {
+  color: white;
+}
+.icons {
+  color: white;
+}
+h4 {
+  font-size: 18px;
+}
+hr {
+  color: white;
+}
+p,
+h4 {
+  color: white;
+}
